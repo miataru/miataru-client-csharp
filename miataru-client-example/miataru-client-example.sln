@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "miataru-client-example", "miataru-client-example\miataru-client-example.csproj", "{03FBE15D-7137-4419-9502-BEBFAFE196A6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "miataru-client", "miataru-client", "{AC61F984-1EFC-4C04-BC28-4144BABA6CEF}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "miataru-client-csharp", "..\miataru-client-csharp\miataru-client-csharp.csproj", "{DCE440B0-A277-4049-A67B-EFD1081C81D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json.Net40", "..\Json.NET\Source\Newtonsoft.Json\Newtonsoft.Json.Net40.csproj", "{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +19,18 @@ Global
 		{03FBE15D-7137-4419-9502-BEBFAFE196A6}.Debug|x86.Build.0 = Debug|x86
 		{03FBE15D-7137-4419-9502-BEBFAFE196A6}.Release|x86.ActiveCfg = Release|x86
 		{03FBE15D-7137-4419-9502-BEBFAFE196A6}.Release|x86.Build.0 = Release|x86
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|x86.Build.0 = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|x86.ActiveCfg = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|x86.Build.0 = Release|Any CPU
 		{DCE440B0-A277-4049-A67B-EFD1081C81D1}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{DCE440B0-A277-4049-A67B-EFD1081C81D1}.Debug|x86.Build.0 = Debug|Any CPU
 		{DCE440B0-A277-4049-A67B-EFD1081C81D1}.Release|x86.ActiveCfg = Release|Any CPU
 		{DCE440B0-A277-4049-A67B-EFD1081C81D1}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DCE440B0-A277-4049-A67B-EFD1081C81D1} = {AC61F984-1EFC-4C04-BC28-4144BABA6CEF}
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D} = {AC61F984-1EFC-4C04-BC28-4144BABA6CEF}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = miataru-client-example\miataru-client-example.csproj

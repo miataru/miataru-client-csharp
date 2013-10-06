@@ -2,10 +2,11 @@ using System;
 
 namespace miataruclientcsharp
 {
-	public class miataruclient
+	public class GetLocation
 	{
-		public miataruclient ()
+		public GetLocation ()
 		{
 		}
 	}
 }
+
