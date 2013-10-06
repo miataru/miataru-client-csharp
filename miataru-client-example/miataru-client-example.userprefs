@@ -1,11 +1,35 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../miataru-client-csharp/Requests/GetLocation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../miataru-client-csharp/MiataruClient.cs">
     <Files>
       <File FileName="miataru-client-example/Program.cs" Line="13" Column="1" />
-      <File FileName="../miataru-client-csharp/MyClass.cs" Line="1" Column="1" />
-      <File FileName="../miataru-client-csharp/Requests/GetLocation.cs" Line="10" Column="3" />
+      <File FileName="../miataru-client-csharp/MiataruClient.cs" Line="15" Column="4" />
+      <File FileName="../miataru-client-csharp/Requests/GetLocation/MiataruGetLocation.cs" Line="17" Column="55" />
+      <File FileName="../miataru-client-csharp/Requests/GetLocation/GetLocation.cs" Line="8" Column="4" />
+      <File FileName="../Json.NET/Source/Newtonsoft.Json/Linq/Extensions.cs" Line="49" Column="40" />
+      <File FileName="../miataru-client-csharp/Requests/GetLocation/MiataruLocationObject.cs" Line="7" Column="30" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="miataru-client" expanded="True">
+            <Node name="miataru-client-csharp" expanded="True">
+              <Node name="Requests" expanded="True">
+                <Node name="GetLocation" expanded="True" />
+              </Node>
+              <Node name="MiataruClient.cs" selected="True" />
+            </Node>
+          </Node>
+          <Node name="miataru-client-example" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

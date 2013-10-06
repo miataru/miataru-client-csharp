@@ -32,9 +32,11 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Requests\GetLocation.cs" />
+    <Compile Include="Requests\GetLocation\GetLocation.cs" />
+    <Compile Include="Requests\GetLocation\MiataruGetLocation.cs" />
+    <Compile Include="MiataruClient.cs" />
+    <Compile Include="Requests\GetLocation\MiataruLocationObject.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -45,5 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Requests\" />
+    <Folder Include="Requests\GetLocation\" />
   </ItemGroup>
 </Project>

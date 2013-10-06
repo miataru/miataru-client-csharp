@@ -1,0 +1,7 @@
+/Users/bietiekay/code/miataru-client-csharp/miataru-client-csharp/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/bietiekay/code/miataru-client-csharp/miataru-client-csharp/bin/Debug/miataru-client-csharp.dll.mdb
+/Users/bietiekay/code/miataru-client-csharp/miataru-client-csharp/bin/Debug/miataru-client-csharp.dll
+/Users/bietiekay/code/miataru-client-csharp/miataru-client-csharp/obj/Debug/miataru-client-csharp.dll
+/Users/bietiekay/code/miataru-client-csharp/miataru-client-csharp/obj/Debug/miataru-client-csharp.dll.mdb
+/Users/bietiekay/code/miataru-client-csharp/miataru-client-csharp/bin/Debug/Newtonsoft.Json.dll
+/Users/bietiekay/code/miataru-client-csharp/miataru-client-csharp/bin/Debug/Newtonsoft.Json.dll.mdb
