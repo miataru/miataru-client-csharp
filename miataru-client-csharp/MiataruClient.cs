@@ -28,10 +28,15 @@ namespace miataruclientcsharp
 			string ReturnJSONValue = client.UploadString (ServerURL + "/GetLocation", json);
 
 			GetLocationResponse Response = JsonConvert.DeserializeObject<GetLocationResponse>(ReturnJSONValue);
+			if (Response.MiataruLocation != null) {
 
-			Console.WriteLine (ReturnJSONValue);
+				if (Response.MiataruLocation [0] != null) {
+					// there's something in there...
+					return Response.MiataruLocation;
+				} else
+					return null;
+			}
 			return null;
-
 		}
 		#endregion
 	}

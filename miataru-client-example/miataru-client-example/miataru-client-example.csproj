@@ -43,5 +43,9 @@
       <Project>{DCE440B0-A277-4049-A67B-EFD1081C81D1}</Project>
       <Name>miataru-client-csharp</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\JavascriptTimestamps\JavascriptTimestamps.csproj">
+      <Project>{AB0FA7FA-AAFD-4F02-89C4-0CAEA7777A6A}</Project>
+      <Name>JavascriptTimestamps</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
