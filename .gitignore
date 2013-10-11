@@ -1,1 +1,6 @@
-
+Json.NET/Source/Newtonsoft.Json/bin/
+Json.NET/Source/Newtonsoft.Json/obj/
+miataru-client-csharp/bin/
+miataru-client-csharp/obj/
+miataru-client-example/miataru-client-example/bin/
+miataru-client-example/miataru-client-example/obj/
