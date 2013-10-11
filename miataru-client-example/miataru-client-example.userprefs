@@ -1,13 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../miataru-client-csharp/MiataruClient.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../miataru-client-csharp/Requests/GetLocation/GetLocationResponse.cs">
     <Files>
-      <File FileName="miataru-client-example/Program.cs" Line="13" Column="1" />
-      <File FileName="../miataru-client-csharp/MiataruClient.cs" Line="15" Column="4" />
-      <File FileName="../miataru-client-csharp/Requests/GetLocation/MiataruGetLocation.cs" Line="17" Column="55" />
-      <File FileName="../miataru-client-csharp/Requests/GetLocation/GetLocation.cs" Line="8" Column="4" />
+      <File FileName="miataru-client-example/Program.cs" Line="12" Column="38" />
+      <File FileName="../miataru-client-csharp/MiataruClient.cs" Line="31" Column="4" />
       <File FileName="../Json.NET/Source/Newtonsoft.Json/Linq/Extensions.cs" Line="49" Column="40" />
-      <File FileName="../miataru-client-csharp/Requests/GetLocation/MiataruLocationObject.cs" Line="7" Column="30" />
+      <File FileName="../miataru-client-csharp/Requests/GetLocation/GetLocationRequest.cs" Line="21" Column="28" />
+      <File FileName="../miataru-client-csharp/Requests/GetLocation/GetLocationResponse.cs" Line="21" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,9 +14,10 @@
           <Node name="miataru-client" expanded="True">
             <Node name="miataru-client-csharp" expanded="True">
               <Node name="Requests" expanded="True">
-                <Node name="GetLocation" expanded="True" />
+                <Node name="GetLocation" expanded="True">
+                  <Node name="GetLocationResponse.cs" selected="True" />
+                </Node>
               </Node>
-              <Node name="MiataruClient.cs" selected="True" />
             </Node>
           </Node>
           <Node name="miataru-client-example" expanded="True" />
@@ -32,7 +32,9 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/bietiekay/code/miataru-client-csharp/miataru-client-csharp/MiataruClient.cs" line="32" column="40" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

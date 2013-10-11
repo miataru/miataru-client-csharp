@@ -1,4 +1,5 @@
 using System;
+using miataruclientcsharp;
 
 namespace miataruclientexample
 {
@@ -6,7 +7,9 @@ namespace miataruclientexample
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+			miataruclient client = new miataruclient ();
+
+			client.GetLastLocationForDevice ("234092430962", "http://service.miataru.com");
 		}
 	}
 }

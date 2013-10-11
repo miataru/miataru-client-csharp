@@ -33,10 +33,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Requests\GetLocation\GetLocation.cs" />
-    <Compile Include="Requests\GetLocation\MiataruGetLocation.cs" />
     <Compile Include="MiataruClient.cs" />
-    <Compile Include="Requests\GetLocation\MiataruLocationObject.cs" />
+    <Compile Include="Requests\GetLocation\GetLocationRequest.cs" />
+    <Compile Include="Requests\GetLocation\GetLocationResponse.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

@@ -38,4 +38,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\..\miataru-client-csharp\miataru-client-csharp.csproj">
+      <Project>{DCE440B0-A277-4049-A67B-EFD1081C81D1}</Project>
+      <Name>miataru-client-csharp</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

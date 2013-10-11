@@ -1,5 +1,0 @@
-/Users/bietiekay/code/miataru-client-csharp/miataru-client-example/miataru-client-example/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
-/Users/bietiekay/code/miataru-client-csharp/miataru-client-example/miataru-client-example/bin/Debug/miataru-client-example.exe.mdb
-/Users/bietiekay/code/miataru-client-csharp/miataru-client-example/miataru-client-example/bin/Debug/miataru-client-example.exe
-/Users/bietiekay/code/miataru-client-csharp/miataru-client-example/miataru-client-example/obj/x86/Debug/miataru-client-example.exe
-/Users/bietiekay/code/miataru-client-csharp/miataru-client-example/miataru-client-example/obj/x86/Debug/miataru-client-example.exe.mdb
